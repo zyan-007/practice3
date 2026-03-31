@@ -15,7 +15,7 @@ for i in range(0, 5):
     print()
 
 
-# inverted pyramid
+# right traingle
 for i in range(0, 5):
     for j in range(i, 0, -1):
         print("* ", end="")
