@@ -13,3 +13,10 @@ for i in range(0, 5):
     for j in range(0, i):
         print("* ", end="")
     print()
+
+
+# inverted pyramid
+for i in range(0, 5):
+    for j in range(i, 0, -1):
+        print("* ", end="")
+    print()
