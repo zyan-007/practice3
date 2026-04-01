@@ -30,3 +30,4 @@ for i in range(0, 5):
     print()
 
 print("first line")
+print("second line")
