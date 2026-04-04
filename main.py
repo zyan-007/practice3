@@ -9,7 +9,18 @@ def show_tasks():
         print(f"{i+1}. {t['task']} [{status}]")
 
 def main():
-    print("Task Manager Started")
+    while True:
+        cmd = input("Enter command (add/show/exit): ")
+
+        if cmd == "add":
+            task = input("Enter task: ")
+            add_task(task)
+
+        elif cmd == "show":
+            show_tasks()
+
+        elif cmd == "exit":
+            break
 
 if __name__ == "__main__":
     main()
